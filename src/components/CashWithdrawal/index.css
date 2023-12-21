@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card-container {
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #150b3e;
+  width: 60%;
+}
+.name-container {
+  display: flex;
+  align-items: center;
+}
+.name-logo {
+  padding-left: 20px;
+  padding-bottom: 30px;
+  align-self: flex-start;
+}
+.s-container {
+  background-color: #c7d2fe;
+  border-radius: 50px;
+  margin-right: 10px;
+  font-size: 23px;
+  color: #7c3aed;
+  height: 50px;
+  width: 50px;
+  display: flex;
+}
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.your-blnc {
+  color: #7c3aed;
+  font-size: 20px;
+  font-weight: normal;
+}
+.rupees {
+  color: #d4d2db;
+  font-size: 29px;
+}
+.rup-default {
+  color: #7c3aed;
+}
+.With-head {
+  color: #d4d2db;
+  font-family: 'roboto';
+  font-size: 22px;
+  font-weight: normal;
+}
+.choose-head {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-weight: 20px;
+  font-weight: bold;
+}
+.ul-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
